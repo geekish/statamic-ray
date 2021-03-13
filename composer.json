@@ -1,0 +1,23 @@
+{
+    "name": "geekish/statamic-ray",
+    "require": {
+        "spatie/laravel-ray": "^1.0",
+        "statamic/cms": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Geekish\\StatamicRay\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Statamic Ray",
+            "description": "Tags & modifiers for Ray in Statamic"
+        },
+        "laravel": {
+            "providers": [
+                "Geekish\\StatamicRay\\ServiceProvider"
+            ]
+        }
+    }
+}
