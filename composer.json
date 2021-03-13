@@ -1,5 +1,9 @@
 {
     "name": "geekish/statamic-ray",
+    "type": "library",
+    "description": "Tag & modifier for Ray in Statamic",
+    "license": "MIT",
+    "homepage": "https://github.com/geekish/statamic-ray",
     "require": {
         "spatie/laravel-ray": "^1.0",
         "statamic/cms": "^3.0"
@@ -12,7 +16,7 @@
     "extra": {
         "statamic": {
             "name": "Statamic Ray",
-            "description": "Tags & modifiers for Ray in Statamic"
+            "description": "Tag & modifier for Ray in Statamic"
         },
         "laravel": {
             "providers": [
